@@ -3142,5 +3142,28 @@
     "status": "Full Time",
     "course": "7",
     "studentNum": 262
+  },
+  {
+    "firstName": "Himanshu",
+    "lastName": "Parmar",
+    "email": "himanshupparmar824@gmail.com",
+    "addressStreet": "Albacore Crescent",
+    "addressCity": "Scarborough",
+    "addressProvince": "Ontario",
+    "status": "Part Time",
+    "course": "5",
+    "TA": false,
+    "studentNum": 263
+  },
+  {
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "addressStreet": "",
+    "addressCity": "",
+    "addressProvince": "",
+    "course": "1",
+    "TA": false,
+    "studentNum": 264
   }
 ]

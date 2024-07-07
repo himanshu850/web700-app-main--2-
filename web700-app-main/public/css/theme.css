@@ -5,17 +5,17 @@ body, html {
     height: 100%;
     margin: 0;
     overflow: auto;
-    background: linear-gradient(to bottom, #5c76a5, #5d83c4);
+    background: linear-gradient(to bottom, #9bf0c7, #edf48e);
     color: #fff;
 }
 
 .bg-light {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #ce80d2, #7bfe8f);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
-    color: #fff;
+    color: #519251;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 

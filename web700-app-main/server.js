@@ -4,7 +4,8 @@
 * of this assignment has been copied manually or electronically from any other source
 * (including 3rd party web sites) or distributed to other students.
 *
-* Name:  Student_ID:  Date: 
+* Name: Himanshu Parmar Student_ID: 146708235  Date: 7/7/24 
+* Online (vercel) Link: ________________________________________________________
 *
 ********************************************************************************/
 
@@ -12,12 +13,14 @@ var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 const path = require('path');
 var app = express();
-
+require('pg'); // explicitly require the "pg" module
+const Sequelize = require('sequelize');
 app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + 'public'));
 
 const collegeData = require('./modules/collegeData');
+app.set('views', __dirname + '/views');
 
 
 app.get("/", (req, res) => {
